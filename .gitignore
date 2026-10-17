@@ -1,0 +1,60 @@
+# Build directories (PowerShell / CMake / Visual Studio)
+.build/
+build/
+dist/
+out/
+cmake-build-*/
+Debug/
+Release/
+x64/
+x86/
+
+# CMake-generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+install_manifest.txt
+compile_commands.json
+
+# Compiled binaries and intermediate files
+*.exe
+*.dll
+*.obj
+*.o
+*.res
+*.pdb
+*.ilk
+*.idb
+*.pch
+*.lib
+*.a
+*.exp
+*.tlog/
+
+# Local IDE settings
+.vs/
+.idea/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+
+# Release archives and downloaded reference source
+*.zip
+/original-Program.cs.txt
+
+# Local runtime configuration and secrets
+CodexProxySwitcher.ini
+.env
+.env.*
+!.env.example
+
+# Temporary files and OS metadata
+*.log
+*.tmp
+*.bak
+*~
+Thumbs.db
+Desktop.ini
+.DS_Store
